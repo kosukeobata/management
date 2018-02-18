@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello GoLang</title>
+</head>
+<body>
+{{define "content"}}
+<form action="/hello" method="POST">
+    <label for="greetingto">Greeting To: </label>
+    <input type="text" id="greetingto" name="greetingto" />
+    <input type="submit" />
+</form>
+{{end}}
+</body>
+</html>
